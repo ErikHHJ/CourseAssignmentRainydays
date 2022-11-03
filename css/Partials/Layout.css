@@ -9,10 +9,10 @@
 .gridcontainer {
     display: grid;
     grid-template-areas:
-     'nav'
-     'header'
-     'main'
-     'footer';
+     'nav main'
+     'nav header'
+     'nav main'
+     'nav footer';
 }
 
 .nav{
@@ -87,5 +87,8 @@
    }
    .Logo{
     height: 98px;
+}
+.A{
+    color: #43BDED;
 }
 }
