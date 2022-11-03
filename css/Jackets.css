@@ -1,0 +1,49 @@
+@import './Partials/Layout.css';
+.banner{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+background-color: black;
+color: var(--signaturecolor);
+letter-spacing: 5px;
+}
+.main{
+   display: grid;
+   grid-template-columns: 1;
+   grid-template-rows: 3;
+   gap: 50px;
+   background: rgb(237, 226, 226);
+}
+main div {
+    display: grid;
+    place-items: center;
+
+}
+.ProductImg{
+    width: 100px;
+    height: 100px;
+}
+.buynowbtn{
+    padding: 5px;
+    background-color: lightgreen;
+    border: none;
+    font-size: 25px;
+    border-radius: 15px;
+}
+@media (min-width: 620px){
+    .main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    .ProductImg{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
