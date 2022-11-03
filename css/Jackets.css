@@ -24,14 +24,17 @@ main div {
 .ProductImg{
     width: 100px;
     height: 100px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .buynowbtn{
-    padding: 5px;
+    padding: 10px;
     background-color: lightgreen;
     border: none;
     font-size: 25px;
     border-radius: 15px;
+}
+main h3{
+    font-size: 30px;
 }
 @media (min-width: 620px){
     .main {
