@@ -1,7 +1,7 @@
 @import './Partials/Layout.css';
 .main{
     grid-area: main;
-    background-image: url(../images/BackgroundImg.avif);
+    background-image: url(../images/BckGImg\ \(1\).webp);
     min-height: 100vh; 
     background-position: center;
     background-repeat: no-repeat;

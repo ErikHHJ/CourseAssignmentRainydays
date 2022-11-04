@@ -1,0 +1,70 @@
+@import './Partials/Layout.css';
+
+.contact-banner{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100vw;
+}
+header{
+    max-height: 98px;
+}
+main h3{
+padding: 15px;
+font-size: 15px;
+font-weight: normal;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.phone_icon{
+    font-size: 20px;
+    padding: 7px;
+}
+.email_icon{
+    font-size: 20px;
+    padding: 15px;
+}
+.brødtekst{
+    font-size: 15px;
+    padding: 15px;
+    letter-spacing: 0.5px;
+}
+.bold{
+    font-weight: bold;
+}
+main h1{
+    padding: 15px;
+}
+.All_Text{
+font-family: sans-serif;
+max-width: 600px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin: 0 auto;
+}
+@media (min-width: 620px) {
+    .brødtekst{
+        font-size: 20px;
+    }
+    .email_icon{
+        font-size: 25px;
+    }
+    .phone_icon{
+        font-size: 25px;
+    }
+    main h3{
+        font-size: 20px;
+        }
+
+
+
+}

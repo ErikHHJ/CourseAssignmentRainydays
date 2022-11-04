@@ -6,19 +6,10 @@
 :root {
     --signaturecolor: #43BDED;
 }
-.gridcontainer {
-    display: grid;
-    grid-template-areas:
-     'nav main'
-     'nav header'
-     'nav main'
-     'nav footer';
-}
 
 .nav{
-    grid-area: nav;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: var(--signaturecolor);
     position: sticky;
 }
@@ -83,12 +74,8 @@
    .nav {
      display: flex;
      justify-content: space-around;
-     gap: 25px;
    }
    .Logo{
     height: 98px;
-}
-.A{
-    color: #43BDED;
 }
 }
