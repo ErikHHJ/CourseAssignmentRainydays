@@ -1,5 +1,7 @@
 @import './Partials/Layout.css';
-
+main {
+    background: rgb(240, 234, 234);
+}
 .contact-banner{
     display: flex;
     align-items: center;
