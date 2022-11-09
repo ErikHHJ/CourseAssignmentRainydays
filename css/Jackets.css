@@ -25,6 +25,9 @@ main div {
     width: 100px;
     height: 100px;
     margin-top: 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 5px;
 }
 .buynowbtn{
     padding: 10px;

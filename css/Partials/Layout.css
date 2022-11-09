@@ -11,7 +11,8 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--signaturecolor);
-    position: sticky;
+    width: 100vw;
+    height: 49px;
 }
 .Logo{
     height: 49px;
@@ -74,6 +75,7 @@
    .nav {
      display: flex;
      justify-content: space-around;
+     height: 98px;
    }
    .Logo{
     height: 98px;

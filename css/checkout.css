@@ -1,0 +1,72 @@
+@import './Partials/Layout.css';
+.main{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    background: rgb(240, 234, 234);
+    margin: 0 auto;
+    place-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .checkoutimg{
+    height: 200px;
+    width: 200px;
+ }
+ .nobold{
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 5px;
+ }
+ .quantity{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+    padding-top: 20px;
+ }
+ .plus {
+    font-size: 30px;
+    background-color: lightgray;
+    padding: 15px;
+ }
+ .minus {
+    font-size: 30px;
+    background-color: lightgray;
+    padding: 15px;
+ }
+ .fees {
+    display: flex;
+    gap: 50px;
+ }
+ .fees ul {
+    list-style: none;
+ }
+ .fees li{
+    padding: 10px;
+ }
+ .FREE {
+    color: green;
+    font-weight: bolder;
+ }
+ .billing{
+    margin-bottom: 10px;
+ }
+ .form-fields{
+    padding: 5px;
+    padding-top: 0;
+ }
+ .form{
+    margin-top: 50px;
+    padding: 5px;
+ }
+ .form p {
+padding-left: 12px;
+font-size: 10px;
+ }
+ .input{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    min-width: 70vw;
+ }
+ 
