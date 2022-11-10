@@ -7,10 +7,17 @@
     margin: 0 auto;
     place-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+   
  }
  .checkoutimg{
     height: 200px;
     width: 200px;
+ }
+ .summarydiv{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
  }
  .nobold{
     font-weight: lighter;
@@ -69,5 +76,54 @@ font-weight: bold;
     border-radius: 10px;
     border: 1px solid black;
     min-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
  }
- 
+ .paymentgrid{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1 1fr 1 1fr;
+   gap: 25px;
+   place-items: center;
+ }
+ .paymentoptions{
+   background-color: lightgray;
+   width: 75vw;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 20px;
+ }
+ .paymentoptions2{
+   background-color: lightgray;
+   width: 75vw;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+ }
+ .paymenticons{
+   font-size: 40px;
+   padding: 10px;
+ }
+.label {
+   font-size: 15  px;
+}
+.bigCTA {
+   padding: 10px;
+   padding-left: 100px;
+   padding-right: 100px;
+   border-radius: 40px;
+   background-color: #3AD74A;
+   border: none;
+   max-width: 264px;
+}
+h3 {
+   font-size: 15px;
+   margin-bottom: 10px;
+}

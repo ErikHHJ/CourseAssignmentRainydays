@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,8 +29,9 @@
         <div>
             <h1>Order Summary</h1>
         </div>
+        <div class="summarydiv">
         <div>
-            <img class="CheckoutImg" src="./images/Jacket1 (1).webp" alt="Jacket 1">
+            <img class="checkoutimg" src="./images/Jacket1 (1).webp" alt="Jacket 1">
         </div>
         <div>
             <p class="nobold">Heavy TurboFlex rain jacket - Size: Medium</p>
@@ -54,6 +56,7 @@
                 <li class="FREE">FREE</li>
             </ul>
         </div>
+        </div>
     
         <div class="form">
             <div class="billing"><h2>Billing Address</h2></div>
@@ -69,6 +72,31 @@
             <div class="form-fields"><input class="input" type="text" placeholder="Oslo"></div>
             <div><p>Province</p></div>
             <div class="form-fields"><input class="input" type="text" placeholder="Innland"></div>
+        </div>
+        <h3>Please choose your preferred payment method</h3>
+        <section class="paymentgrid">
+            <div class="paymentoptions">
+                <i class="fa-brands fa-cc-visa paymenticons"></i>
+                <i class="fa-brands fa-cc-mastercard paymenticons"></i>
+                <label><input type="radio" name="payment"/>Pay $70 with credit/debit card
+            </div>
+            <div class="paymentinfo-card">
+            <input class="input" type="text" placeholder="Cardholder's name">
+            <input class="input" type="text" placeholder="Card number">
+            <input class="input" type="text" placeholder="Valid Date">
+            <input class="input" type="text" placeholder="CW/CVC">
+            </div>
+            <div class="paymentoptions2">
+                <i class="fa-brands fa-paypal paymenticons"></i>
+                <label class="label"><input type="radio" name="payment"/>Pay $70 with credit/debit card
+            </div>
+            <div>
+                <input class="input" type="text" placeholder="Paypal Email">
+                <input class="input" type="text" placeholder="Password">
+            </div>
+        </section>
+        <div class="BuyNow">
+            <a href="#"><button class="bigCTA">SUBMIT</button></a>
         </div>
 
     </main>
