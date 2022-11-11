@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background: rgb(240, 234, 234);
+}
 :root {
     --signaturecolor: #43BDED;
 }
@@ -61,6 +64,30 @@
     border: 1px solid black;
     
 }
+.footergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+ }
+ .footer {
+    background-color: black;
+    height: 20vh;
+    padding: 10px;
+ }
+ .footer ul{
+    list-style: none;
+ }
+ .sitenav {
+ color: white;
+ }
+ .info{
+ color: white;
+ }
+ .socials{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+ }
 @media (min-width: 620px){
     #icon{
       display: none;

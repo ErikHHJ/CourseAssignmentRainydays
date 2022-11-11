@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RainyDays</title>
+    <title>RainyDays|checkout</title>
     <link rel="stylesheet" href="./css/checkout.css">
     <script src="https://kit.fontawesome.com/86fb0fb587.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Checkout page for buying a jacket from Rainydays.">
 </head>
 <body class="gridcontainer">
     <header>
@@ -25,9 +26,11 @@
         </div>
     </nav>
     </header>
-    <main class="main">
+    <h1 class="title">Order Summary</h1>
+    <main>
+        <div class="main">
         <div>
-            <h1>Order Summary</h1>
+        
         </div>
         <div class="summarydiv">
         <div>
@@ -73,14 +76,11 @@
             <div><p>Province</p></div>
             <div class="form-fields"><input class="input" type="text" placeholder="Innland"></div>
         </div>
-        <h3>Please choose your preferred payment method</h3>
-        <section class="paymentgrid">
+        <div class="middle"><h3>Please choose your preferred payment method</h3></div>
             <div class="paymentoptions">
                 <i class="fa-brands fa-cc-visa paymenticons"></i>
                 <i class="fa-brands fa-cc-mastercard paymenticons"></i>
                 <label><input type="radio" name="payment"/>Pay $70 with credit/debit card
-            </div>
-            <div class="paymentinfo-card">
             <input class="input" type="text" placeholder="Cardholder's name">
             <input class="input" type="text" placeholder="Card number">
             <input class="input" type="text" placeholder="Valid Date">
@@ -88,15 +88,36 @@
             </div>
             <div class="paymentoptions2">
                 <i class="fa-brands fa-paypal paymenticons"></i>
-                <label class="label"><input type="radio" name="payment"/>Pay $70 with credit/debit card
-            </div>
-            <div>
+                <label><input type="radio" name="payment"/>Pay $70 with credit/debit card
                 <input class="input" type="text" placeholder="Paypal Email">
                 <input class="input" type="text" placeholder="Password">
             </div>
-        </section>
-        <div class="BuyNow">
-            <a href="#"><button class="bigCTA">SUBMIT</button></a>
         </div>
+        <div><a href="./success.html" class="btncenter"><button class="bigCTA">SUBMIT</button></a></div>
 
     </main>
+    <footer class="footergrid footer">
+        <div class="sitenav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="info">
+            <ul>
+                <li>Location</li>
+                <li>Currency: Nok</li>
+                <li>Languages: Norwegian, English</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><i class="fa-brands fa-facebook socials"></i></li>
+                <li><i class="fa-brands fa-twitter socials"></i></li>
+                <li><i class="fa-brands fa-instagram socials"></i></li>
+            </ul>
+        </div>
+    </footer>
+    </body>
+    </html>

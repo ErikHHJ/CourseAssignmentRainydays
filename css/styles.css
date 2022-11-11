@@ -32,9 +32,10 @@ main ul {
     color: black;
     background-color: var(--signaturecolor)
 }
-.footer{
-    grid-area: footer;
+.footer {
+    margin-top: 0;
 }
+
 
 
 @media (min-width: 620px) {

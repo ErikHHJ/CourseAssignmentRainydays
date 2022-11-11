@@ -29,10 +29,12 @@ font-weight: normal;
 .phone_icon{
     font-size: 20px;
     padding: 7px;
+    margin-right: 50px;
 }
 .email_icon{
     font-size: 20px;
     padding: 15px;
+    margin-right: 40px;
 }
 .brødtekst{
     font-size: 15px;

@@ -140,4 +140,6 @@ background: #cacaca;
 .buynow {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }

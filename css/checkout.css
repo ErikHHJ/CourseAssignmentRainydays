@@ -1,13 +1,17 @@
 @import './Partials/Layout.css';
 .main{
     display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: auto;
-    background: rgb(240, 234, 234);
-    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     place-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
+    gap: 30px;
+ }
+ .title{
+   display: flex;
+   justify-content: center;
+   background-color: black;
+   color: var(--signaturecolor);
  }
  .checkoutimg{
     height: 200px;
@@ -63,8 +67,7 @@
     padding-top: 0;
  }
  .form{
-    margin-top: 50px;
-    padding: 5px;
+    margin: 0 auto;
  }
  .form p {
 padding-left: 12px;
@@ -75,19 +78,13 @@ font-weight: bold;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid black;
-    min-width: 70vw;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5px;
  }
- .paymentgrid{
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: 1 1fr 1 1fr;
-   gap: 25px;
-   place-items: center;
- }
+ 
  .paymentoptions{
    background-color: lightgray;
    width: 75vw;
@@ -100,7 +97,7 @@ font-weight: bold;
  .paymentoptions2{
    background-color: lightgray;
    width: 75vw;
-   height: auto;
+   height: 100%;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -122,8 +119,71 @@ font-weight: bold;
    background-color: #3AD74A;
    border: none;
    max-width: 264px;
+   margin-top: 15px;
 }
-h3 {
-   font-size: 15px;
+.btncenter{
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   background: rgb(240, 234, 234);
+   margin-bottom: 20px;
+}
+.middle {
+   font-size: 10px;
    margin-bottom: 10px;
+}
+
+@media (min-width:620px) {
+   .main{
+      grid-template-columns: 1 1;
+      width: 100vw;
+      place-items: center;
+   }
+   .middle {
+      font-size: 15px;
+      margin-bottom: 10px;
+     grid-column: 1 / 3;
+     grid-row: 2 / 3;
+   }
+   .input{
+      width: 30vw;
+   }
+   .form {
+      grid-row: 1;
+      max-width: 50vw;
+   }
+   .summarydiv{
+      grid-row: 1;
+      display: flex;
+      justify-content: flex-start;
+   }
+   .paymentoptions{
+      width: 45vw;
+      grid-row: 3;
+      grid-column: 1;
+   }
+   .paymentoptions2{
+      width: 45vw;
+      grid-row: 3;
+      grid-column: 2;
+   }
+   .paymenticons{
+      font-size: 120px;
+   }
+   .paymentgrid{
+      grid-template-columns: 1fr 1fr;
+   }
+   .bigCTA{
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      width: 30vw;
+      border: 1px solid black;
+      margin-top: 15px;
+   }
+   .btncenter{
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+   }
 }
