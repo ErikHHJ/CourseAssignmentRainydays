@@ -57,6 +57,8 @@ line-height: 18px;
 .size {
    margin-top: 70px;
    border-bottom: 1px solid black;
+   width: 60vw;
+   margin: 0 auto;
 }
 .center{
     display: flex;
@@ -142,4 +144,9 @@ background: #cacaca;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+@media (min-width: 620px){
+    .size {
+        max-width: 850px;
+    }
 }
