@@ -65,15 +65,18 @@ line-height: 18px;
     justify-content: center;
 }
 .ellipse{
-width: 19.81px;
-height: 19.81px;
-background: #FF603E;
+width: 25px;
+height: 25px;
+background: linear-gradient(
+    to right,
+    #FF603E 0%,
+    #FF603E 50%,
+    #cacaca 50%,
+    #cacaca 100%);
+    border-radius: 50%;
+    transform: rotate(135deg);
 }
-.ellipse2 {
-    width: 19.81px;
-height: 19.81px;
-background: #cacaca;
-}
+
 .colour{
     display: flex;
     justify-content: space-between;
