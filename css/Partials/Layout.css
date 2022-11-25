@@ -47,7 +47,7 @@ body{
 }
 .dropdownmenu , #menu-checkbox {
     position: absolute;
-    left: 0%;
+    left: 50px;
     top: 49px;
     display: none;
 }
@@ -62,6 +62,7 @@ body{
     padding: 20px;
     letter-spacing: 2px;
     border: 1px solid black;
+   
     
 }
 .footergrid{
