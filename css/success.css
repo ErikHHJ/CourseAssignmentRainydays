@@ -85,11 +85,13 @@ animation: moveX 3.05s linear 2s infinite alternate, moveY 3.4s linear 0s infini
   .browsebtn{
     font-size: 20px;
     width: 65vw;
-    margin: 0 auto;
     color: white;
     background-color: black;
     padding: 15px;
     border-radius: 8px;
+  }
+  .container a {
+    margin: 0 auto;
   }
 @media (min-width: 620px){
     .circle3{

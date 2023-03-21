@@ -2,7 +2,7 @@
 .main{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     place-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     gap: 30px;
@@ -135,44 +135,34 @@ font-weight: bold;
 
 @media (min-width:620px) {
    .main{
-      grid-template-columns: 1 1;
       width: 100vw;
       place-items: center;
    }
    .middle {
       font-size: 15px;
       margin-bottom: 10px;
-     grid-column: 1 / 3;
-     grid-row: 2 / 3;
+     
    }
    .input{
       width: 30vw;
    }
    .form {
-      grid-row: 1;
       max-width: 50vw;
    }
    .summarydiv{
-      grid-row: 1;
       display: flex;
       justify-content: flex-start;
    }
    .paymentoptions{
       width: 45vw;
-      grid-row: 3;
-      grid-column: 1;
    }
    .paymentoptions2{
       width: 45vw;
-      grid-row: 3;
-      grid-column: 2;
    }
    .paymenticons{
       font-size: 120px;
    }
-   .paymentgrid{
-      grid-template-columns: 1fr 1fr;
-   }
+   
    .bigCTA{
       font-size: 40px;
       display: flex;
@@ -185,5 +175,9 @@ font-weight: bold;
       display: flex;
       justify-content: center;
       text-decoration: none;
+   }
+   .checkoutimg {
+      width: 400px;
+      height: 400px;
    }
 }

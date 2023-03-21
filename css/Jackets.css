@@ -1,14 +1,5 @@
 @import './Partials/Layout.css';
-.banner{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 30px;
-font-weight: bold;
-display: flex;
-justify-content: center;
-background-color: black;
-color: var(--signaturecolor);
-letter-spacing: 5px;
-}
+
 .main{
    display: grid;
    grid-template-columns: 1;

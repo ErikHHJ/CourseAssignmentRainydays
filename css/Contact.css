@@ -1,4 +1,9 @@
 @import './Partials/Layout.css';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 main {
     background: rgb(240, 234, 234);
 }
@@ -12,19 +17,16 @@ header{
     max-height: 98px;
 }
 main h3{
-padding: 15px;
 font-size: 15px;
 font-weight: normal;
 }
 .phone{
     display: flex;
     justify-content: space-between;
-    padding: 15px;
 }
 .email{
     display: flex;
     justify-content: space-between;
-    padding: 15px;
 }
 .phone_icon{
     font-size: 20px;
@@ -38,15 +40,13 @@ font-weight: normal;
 }
 .brødtekst{
     font-size: 15px;
-    padding: 15px;
+    
     letter-spacing: 0.5px;
 }
 .bold{
     font-weight: bold;
 }
-main h1{
-    padding: 15px;
-}
+
 .All_Text{
 font-family: sans-serif;
 max-width: 600px;
@@ -54,6 +54,9 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 margin: 0 auto;
+padding: 15px;
+gap: 10px;
+
 }
 @media (min-width: 620px) {
     .brødtekst{
