@@ -45,6 +45,10 @@
     background-color: lightgray;
     padding: 15px;
  }
+ .plus:hover , .minus:hover {
+   background-color: black;
+   color: white;
+ }
  .fees {
     display: flex;
     gap: 50px;

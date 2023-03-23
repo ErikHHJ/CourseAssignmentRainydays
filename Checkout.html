@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/checkout.css">
     <script src="https://kit.fontawesome.com/86fb0fb587.js" crossorigin="anonymous"></script>
     <meta name="description" content="Checkout page for buying a jacket from Rainydays.">
+    <script src="./js/checkout.js" type="module" defer></script>
 </head>
 <body class="gridcontainer">
     <header>
@@ -37,17 +38,17 @@
             <p class="nobold">Heavy TurboFlex rain jacket - Size: Medium</p>
         </div>
         <div class="quantity">
-            <div><i class="fa-solid fa-plus plus"></i></div>
-            <div><h1>1</h1></div>
-            <div><i class="fa-solid fa-minus minus"></i></div>
+            <div class="plusclick"><i class="fa-solid fa-plus plus"></i></div>
+            <div><h1 class="productquantity">1</h1></div>
+            <div class="minusclick"><i class="fa-solid fa-minus minus"></i></div>
         </div>
         <div>
-            <h2>$70</h2>
+            <h2 class="topay">$70</h2>
         </div>
         <div class="fees">
             <ul>
-                <li>Sub Total:</li>
-                <li>Tax:</li>
+                <li>Sub Total per product:</li>
+                <li>Tax per product:</li>
                 <li>Shipping:</li>
             </ul>
             <ul>
