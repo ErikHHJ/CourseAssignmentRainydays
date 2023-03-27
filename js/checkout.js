@@ -3,7 +3,7 @@ const clickDiv2 = document.querySelector(".minusclick");
 const quantity = document.querySelector(".productquantity");
 const totalCost = document.querySelector(".topay");
 
- x = 1
+let x = 1
 let y = 70
 
 
